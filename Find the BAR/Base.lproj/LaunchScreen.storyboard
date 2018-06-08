@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="riddle" translatesAutoresizingMaskIntoConstraints="NO" id="25K-oW-mRI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="25K-oW-mRI" secondAttribute="height" multiplier="375:667" id="Chc-2i-rWw"/>
+                                </constraints>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dPV-97-Iyd">
+                                <rect key="frame" x="0.0" y="570" width="375" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.27981954225352113" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELLO WORLD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCM-4R-Vou">
+                                <rect key="frame" x="0.0" y="570" width="375" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's find the Bar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faf-ex-MJF">
+                                <rect key="frame" x="0.0" y="594" width="375" height="107"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="25K-oW-mRI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2Zi-9w-uZx"/>
+                            <constraint firstItem="faf-ex-MJF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7Br-d9-NCo"/>
+                            <constraint firstAttribute="bottom" secondItem="faf-ex-MJF" secondAttribute="bottom" constant="-34" id="7Q1-nA-0gG"/>
+                            <constraint firstItem="faf-ex-MJF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="FbW-nP-H0Y"/>
+                            <constraint firstItem="faf-ex-MJF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="574" id="HP1-yu-2CQ"/>
+                            <constraint firstItem="faf-ex-MJF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="J4M-Zk-93G"/>
+                            <constraint firstAttribute="bottom" secondItem="faf-ex-MJF" secondAttribute="bottom" constant="-34" id="Ui4-JD-ymp"/>
+                            <constraint firstItem="25K-oW-mRI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="b71-75-QlU"/>
+                            <constraint firstItem="25K-oW-mRI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bx3-DJ-NaH"/>
+                            <constraint firstItem="25K-oW-mRI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dy8-gb-69w"/>
+                            <constraint firstItem="faf-ex-MJF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="574" id="lNM-5y-mcx"/>
+                            <constraint firstItem="faf-ex-MJF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="m0w-v9-vbq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="riddle" width="1450" height="956"/>
+    </resources>
+</document>
